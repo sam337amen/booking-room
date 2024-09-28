@@ -1,0 +1,70 @@
+/* In your CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+/* Home.css */
+.container {
+  margin-top: 20px;
+}
+
+/* Overlay styles for the background image */
+.position-relative {
+  height: 700px;
+  overflow: hidden;
+}
+
+.overlay {
+  background: rgba(195, 187, 105, 0.6);
+  padding: 1px;
+  border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif; /* Use the selected font family */
+    font-size: 3rem; /* Main title size */
+    font-weight: 700; /* Bold weight */
+    color: #343a40; /* Dark gray color for contrast */
+    text-align: center; /* Center the title */
+    margin: 20px 0; /* Add vertical spacing */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+p.lead {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+/* Form styles */
+.form-row {
+  margin-top: 20px;
+}
+
+.form-control {
+  border-radius: 20px;
+  border: 1px solid #007bff;
+  transition: border-color 0.3s;
+  margin-top: 5px;
+  
+}
+
+.form-control:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 5px rgba(0, 91, 187, 0.5);
+}
+
+.btn-primary {
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+/* Room details section */
+.room-detail {
+  margin-top: 30px;
+}

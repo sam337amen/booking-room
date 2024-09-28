@@ -1,0 +1,38 @@
+/* about.css */
+
+/* Animation for card appearance */
+.card {
+    background-color: #eaebed; /* Dark background for cards */
+    border: none; /* No border */
+    opacity: 0; /* Initial opacity for animation */
+    transform: translateY(20px); /* Start slightly lower */
+    animation: slideIn 0.8s forwards; /* Slide-in animation */
+    transition: transform 0.3s ease; /* Transition for hover effect */
+}
+
+/* Card hover effect */
+.card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+/* Keyframes for slide-in animation */
+@keyframes slideIn {
+    to {
+        opacity: 1; /* End at fully visible */
+        transform: translateY(0); /* End at normal position */
+    }
+}
+
+/* Delay animations for cards */
+.card:nth-child(1) {
+    animation-delay: 0.3s; /* Delay for first card */
+}
+
+.card:nth-child(2) {
+    animation-delay: 0.5s; /* Delay for second card */
+}
+
+.card:nth-child(3) {
+    animation-delay: 0.7s; /* Delay for third card */
+}
